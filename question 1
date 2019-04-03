@@ -1,0 +1,9 @@
+answer = ''
+while answer != 'Delhi':
+    answer = input("What Is The Capital of India - ")
+    if answer == 'Delhi':
+        print("Correct Answer!!!")
+    elif answer == 'Kolkata':
+        print("Nooo, It Was Changed To Some Other City In 1911")
+    else:
+        print("Sorry, Try Again")
